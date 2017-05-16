@@ -5,7 +5,7 @@
 
 task=$1
 log=$logDir/$task.log
-bwadb=$HOME/scratch/genomes/homo-sapiens/homo-sapiens
+bwadb=$HOME/scratch/genomes/fulmarus-glacialis/fulmarus-glacialis
 fastq=$dataDir/$task.tr.fastq.gz
 out=$task-unmapped.fastq.gz
 

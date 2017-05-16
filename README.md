@@ -23,9 +23,9 @@ done
 * `00-start`: Logging. Find input FASTQ files for a sample, check they
   exist, issue a task for each.
 * `01-stats`: Collect statistics on the original (trimmed) FASTQ files.
-* `02-map`: Map reads to the human genome using bwa. Find unmapped reads
-  for the next stage of processing.
-* `03-diamond`: Map the non-human reads to a viral protein database.
+* `02-map`: Map reads to the Norther Fulmar (*Fulmarus glacialis*) genome using `bwa`.
+  Find unmapped reads for the next stage of processing.
+* `03-diamond`: Match the non-Fulmar reads against the NCBI viral protein database.
 * `04-panel`: Make a [dark matter](https://github.com/acorg/dark-matter/) panel of blue plots.
 * `05-sample-count`: Count the number of reads per sample (summing the
   sequencing read counts from `01-stats`).
